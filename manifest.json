@@ -1,0 +1,20 @@
+{
+ "name": "Music By Mood",
+ "background": {
+	"scripts": ["background.js"],
+	"persistent": false
+ },
+ "version": "1.0",
+ "manifest_version": 2,
+ "description": "bescause i want you to recommend me! ",
+ "icons":{
+	"128": "music.png"
+ },
+ "browser_action":{
+    "default_title": "nir",
+	"default_popup": "popup.html"
+ },
+ "permissions": [
+ "http://*/*", "https://*/*", "tabs", "http://localhost/" 
+ ]
+}
