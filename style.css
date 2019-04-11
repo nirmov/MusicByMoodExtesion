@@ -53,4 +53,7 @@ body {
     background-color: #f44336;
     color: white;
   }
+iframe {
+  pointer-events: none;
+}
 

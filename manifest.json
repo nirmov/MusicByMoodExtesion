@@ -2,8 +2,9 @@
  "name": "Music By Mood",
  "background": {
 	"scripts": ["background.js"],
-	"persistent": false
+	"persistent": true
  },
+ 
  "version": "1.0",
  "manifest_version": 2,
  "description": "bescause i want you to recommend me! ",
